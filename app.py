@@ -90,7 +90,12 @@ with tab_diagnosis:
     cols = st.columns(len(display_metrics))
     for col, metric in zip(cols, display_metrics):
         row = comparison.set_index("metric").loc[metric]
-        col.metric(labels[metric], fmt_metric(metric, row["current"]), f"{row['delta_pct']:+.1%}")
+        col.metric(
+            labels[metric],
+            fmt_metric(metric, row["current"]),
+            f"{row['delta_pct']:+.1%}",
+            delta_color="inverse" if metric in {"return_rate", "late_delivery_rate"} else "normal",
+        )
         col.caption(f"Status: {row['status']}")
 
     st.divider()
