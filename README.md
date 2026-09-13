@@ -2,6 +2,8 @@
 
 > A decision-oriented Streamlit dashboard for diagnosing commerce KPI anomalies and translating customer segments into retention actions.
 
+🚀 **[Try the Live Demo](https://zhang-jin-commerce-operations.streamlit.app/)**
+
 **Portfolio project by ZHANG JIN · Renmin University of China**
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB)](https://www.python.org/)
