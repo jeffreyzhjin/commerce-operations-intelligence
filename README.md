@@ -10,6 +10,26 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.41%2B-FF4B4B)](https://streamlit.io/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## Product Screenshots
+
+### Executive anomaly diagnosis
+
+The dashboard compares equal-length periods, applies visible KPI guardrails, and locates likely business drivers.
+
+![Executive anomaly diagnosis](screenshots/01-executive-diagnosis.png)
+
+### Customer segmentation and retention treatment
+
+RFM segments are connected to operating objectives, recommended actions, and success metrics.
+
+![Customer segmentation](screenshots/02-customer-segments.png)
+
+### Prioritized operating backlog
+
+Diagnostic signals are translated into owned actions ranked by impact, confidence, and effort.
+
+![Prioritized operating backlog](screenshots/03-action-plan.png)
+
 ## Why This Product
 
 Many dashboards answer “what happened” but stop before “why” and “what should we do next.” This MVP is designed for an e-commerce operations manager who needs to:
